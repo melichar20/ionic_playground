@@ -1,0 +1,10 @@
+{
+  "name": "proxy-example",
+  "app_id": "",
+  "proxies": [
+    {
+      "path": "tabs/tab1",
+      "proxyUrl": "http://cors.api.com/api"
+    }
+  ]
+}

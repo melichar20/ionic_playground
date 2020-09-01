@@ -1,6 +1,6 @@
 <ion-header [translucent]="true">
   <ion-toolbar>
-    <ion-title>
+    <ion-title class="ion-text-center">
       Geolocation
     </ion-title>
   </ion-toolbar>
@@ -32,4 +32,12 @@
     </ion-list>  
 
   </div>
+</ion-content>
+
+<ion-content>
+  <ion-button (click)="displayMap()" expand="block">
+    Show Map
+  </ion-button>
+
+  <div id="mapId" style="height:100%"></div>
 </ion-content>
